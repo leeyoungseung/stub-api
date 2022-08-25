@@ -1,0 +1,16 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+      
+spring:
+  mvc:    pathmatch:      matching-strategy: ant-path-matcher
+
+property:
+  app:
+    res-body-oauth: C:\Users\leeyoungseung\project_work\pleiades_work\stub-api\src\main\resources\data\res-body-oauth.json
+    res-body-purchases-sbsc-get:  C:\Users\leeyoungseung\project_work\pleiades_work\stub-api\src\main\resources\data\res-body-sbsc-get.json
